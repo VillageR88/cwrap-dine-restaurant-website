@@ -1,0 +1,609 @@
+{
+  "head": {
+    "title": "New Candy Wrapper project",
+    "link": [
+      {
+        "rel": "shortcut icon",
+        "href": "favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap",
+        "type": "text/css"
+      }
+    ],
+    "meta": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "description",
+        "content": "New Candy Wrapper project."
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      }
+    ]
+  },
+  "fonts": [],
+  "classroom": [
+    {
+      "name": "p",
+      "type": "element",
+      "style": "margin: 0; line-height: 30px; font-size: 20px;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "font-size: 16px;"
+        }
+      ]
+    },
+    {
+      "name": "button1",
+      "type": "class",
+      "style": "border: 1px solid white; box-sizing: border-box; margin: 0; width: fit-content; padding: 24px 54px; font-size: 17px; font-weight: 600; line-height: 16px; letter-spacing: 2.5px; cursor: pointer; transition: 150ms;"
+    },
+    {
+      "name": "button2",
+      "type": "class",
+      "style": "background-color: transparent; border: none; cursor: pointer; padding:6px; box-sizing: border-box; opacity: 0.5; outline:none;"
+    },
+    {
+      "name": "button2:focus",
+      "type": "class",
+      "style": "opacity: 1;"
+    },
+    {
+      "name": "h2",
+      "type": "element",
+      "style": "font-weight: 700; font-size: 48px; letter-spacing: -0.5px; line-height: 48px;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "font-size: 32px; line-height: 40px; letter-spacing: -0.4px;"
+        }
+      ]
+    },
+    {
+      "name": "h3",
+      "type": "element",
+      "style": "font-weight: bold; font-size: 20px; line-height: 24px; letter-spacing: -0.25px;"
+    },
+    {
+      "name": "carousel-item",
+      "type": "class",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "min-height: 400px;"
+        },
+        {
+          "query": "max-width: 1200px",
+          "style": "min-height: 360px;"
+        }
+      ],
+      "style": "min-width: 100%; min-height:600px; position: relative; z-index: 2; user-select: none; background-size: 100%;"
+    },
+    {
+      "name": "footerText",
+      "type": "class",
+      "style": "font-size: 14px; line-height: 28px; letter-spacing: 2px;"
+    },
+    {
+      "name": "input",
+      "type": "element",
+      "style": "font-size: 20px; line-height: 28px; letter-spacing: 0; font-family: League Spartan;"
+    },
+    {
+      "name": "select",
+      "type": "element",
+      "style": "font-size: 20px; line-height: 28px; letter-spacing: 0; font-family: League Spartan; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none;appearance: none; background: url('../static/images/icons/icon-arrow.svg') no-repeat right center, transparent;"
+    },
+    {
+      "name": "select1",
+      "type": "class",
+      "style": "height: 43px; border: none; border-bottom: 1px solid #8E8E8E; padding-inline: 16px; outline: none; box-sizing: border-box; margin: 0; color: #8E8E8E"
+    },
+    {
+      "name": "select1:focus",
+      "type": "class",
+      "style": "color: black;"
+    },
+    {
+      "name": "label",
+      "type": "element",
+      "style": "font-size: 20px; line-height: 28px; letter-spacing: 0;"
+    },
+    {
+      "name": "body > header > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(3):has(button:focus) > label:nth-of-type(1) > *:nth-of-type(1)",
+      "style": "color: #111111;"
+    },
+    {
+      "name": "body > header > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(3):has(input:focus) > label:nth-of-type(1) > *:nth-of-type(1)",
+      "style": "color: #111111;"
+    }
+  ],
+  "element": "body",
+  "style": "background-color: white; margin: 0; padding: 0; box-sizing: border-box; min-height: 100dvh; display: flex; flex-direction: column; font-family: League Spartan;",
+  "children": [
+    {
+      "element": "header",
+      "style": "background-color: #111111; min-height: 600px; background-image: url(\"../static/images/booking/hero-bg-desktop@2x.jpg\"); background-size: cover; background-repeat: no-repeat; ",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "background-image: url(\"../static/images/booking/hero-bg-mobile@2x.jpg\"); "
+        },
+        {
+          "query": "max-width: 1200px",
+          "style": "background-image: url(\"../static/images/booking/hero-bg-tablet@2x.jpg\"); "
+        }
+      ],
+      "children": [
+        {
+          "element": "div",
+          "style": "margin: 65px auto 154px auto; display: flex; max-width: 1110px; width: 100%; justify-content: space-between;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "max-width: 350px;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "align-items: center; text-align: center; margin: 38px auto 268px auto; flex-direction: column;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "width: fit-content;",
+              "children": [
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "../static/images/logo.svg"
+                  },
+                  "style": "width: fit-content; height: auto;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "height: 32px;"
+                    }
+                  ]
+                },
+                {
+                  "element": "section",
+                  "style": "display: flex; flex-direction: column; gap: 18px; margin-top: 153px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "margin-top: 38px; align-items: center; gap: 20px;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "h1",
+                      "style": "color: white; font-size: 80px; font-weight: 300; line-height: 80px; letter-spacing: -1px; margin: 0; max-width: 507px;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 768px",
+                          "style": "font-size: 32px; line-height: 40px; letter-spacing: 0; max-width: 300px;"
+                        },
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "font-size: 48px; line-height: 64px; letter-spacing: -0.6px; max-width: 350px;"
+                        }
+                      ],
+                      "text": "Reservations"
+                    },
+                    {
+                      "element": "p",
+                      "style": "color: white; max-width: 440px;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "max-width: 550px;"
+                        }
+                      ],
+                      "text": "We can’t wait to host you. If you have any special requirements please feel free to call on the phone number below. We’ll be happy to accommodate you."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "form",
+              "style": "max-width: 540px; width: 100%; min-height: 560px; background-color: white; margin-block: 190px -370px; position: relative; z-index: 1; box-shadow: 0 75px 100px rgba(56,66,85,0.5); display: flex; flex-direction: column; padding: 48px; box-sizing: border-box; gap: 37px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "padding: 32px;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin-block: 38px -370px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "input",
+                  "attributes": {
+                    "placeholder": "Name",
+                    "id": "name",
+                    "autocomplete": "name",
+                    "class": "select1",
+                    "required": ""
+                  },
+                  "style": ""
+                },
+                {
+                  "element": "input",
+                  "attributes": {
+                    "class": "select1",
+                    "placeholder": "Email",
+                    "id": "email",
+                    "autocomplete": "email",
+                    "required": ""
+                  },
+                  "style": ""
+                },
+                {
+                  "element": "div",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "flex-direction: column; align-items: start;"
+                    }
+                  ],
+                  "style": "display: flex; justify-content: space-between; align-items: center;",
+                  "children": [
+                    {
+                      "element": "label",
+                      "style": ";",
+                      "text": "Pick a date"
+                    },
+                    {
+                      "element": "div",
+                      "style": "display: flex; gap: 16px;",
+                      "children": [
+                        {
+                          "element": "select",
+                          "attributes": {
+                            "class": "select1",
+                            "id": "month",
+                            "title": "month"
+                          },
+                          "style": "width: 80px;",
+                          "extend": [
+                            {
+                              "extension": "::before",
+                              "style": "content: 123"
+                            }
+                          ]
+                        },
+                        {
+                          "element": "select",
+                          "attributes": {
+                            "class": "select1",
+                            "id": "day",
+                            "title": "day"
+                          },
+                          "style": "width: 80px;"
+                        },
+                        {
+                          "element": "select",
+                          "attributes": {
+                            "class": "select1",
+                            "id": "year",
+                            "title": "year"
+                          },
+                          "style": "width: 97px;"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "flex-direction: column; align-items: start;"
+                    }
+                  ],
+                  "style": "display: flex; justify-content: space-between; align-items: center;",
+                  "children": [
+                    {
+                      "element": "label",
+                      "style": "",
+                      "text": "Pick a time"
+                    },
+                    {
+                      "element": "div",
+                      "style": "display: flex; gap: 16px;",
+                      "children": [
+                        {
+                          "element": "select",
+                          "attributes": {
+                            "class": "select1",
+                            "id": "hours",
+                            "title": "hours"
+                          },
+                          "style": "width: 80px;"
+                        },
+                        {
+                          "element": "select",
+                          "attributes": {
+                            "class": "select1",
+                            "id": "minutes",
+                            "title": "minutes"
+                          },
+                          "style": "width: 80px;"
+                        },
+                        {
+                          "element": "select",
+                          "attributes": {
+                            "class": "select1",
+                            "id": "meridiem",
+                            "title": "meridiem"
+                          },
+                          "style": "width: 97px;"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "style": "height: 41px; border-bottom: 1px solid #8E8E8E; display: flex; justify-content: space-between; align-items: center; padding-inline: 31px;",
+                  "children": [
+                    {
+                      "element": "button",
+                      "attributes": {
+                        "class": "button2",
+                        "type": "button",
+                        "id": "minus"
+                      },
+                      "style": "",
+                      "children": [
+                        {
+                          "element": "img",
+                          "attributes": {
+                            "src": "../static/images/icons/icon-minus.svg"
+                          },
+                          "style": ""
+                        }
+                      ]
+                    },
+                    {
+                      "element": "label",
+                      "style": "display: flex; gap: 4px; font-size: 20px; font-weight: bold; line-height: 24px; letter-spacing: -0.25px; color: #8E8E8E; margin-inline: auto;",
+                      "children": [
+                        {
+                          "element": "input",
+                          "attributes": {
+                            "value": "2",
+                            "id": "numberOfPeople"
+                          },
+                          "style": "border: none; outline: none; text-align: right; width: 42%; font-weight: bold; font-size: 20px; line-height: 24px; letter-spacing: -0.25px; color: #8E8E8E; background-color: transparent;"
+                        },
+                        {
+                          "element": "span",
+                          "style": "",
+                          "text": "people"
+                        }
+                      ]
+                    },
+                    {
+                      "element": "button",
+                      "attributes": {
+                        "class": "button2",
+                        "type": "button",
+                        "id": "plus"
+                      },
+                      "style": "",
+                      "children": [
+                        {
+                          "element": "img",
+                          "attributes": {
+                            "src": "../static/images/icons/icon-plus.svg"
+                          },
+                          "style": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "button",
+                  "style": "min-height: 64px; background-color: #111111; color: white; font-size: 17px; font-weight: 600; font-family: League Spartan; line-height: 28px; letter-spacing: 2.5px; padding-top: 6px; cursor: pointer; transition: 150ms; border-color: #111111; border: 1px solid #111111;",
+                  "attributes": {
+                    "action": "./",
+                    "type": "submit"
+                  },
+                  "extend": [
+                    {
+                      "extension": ":hover",
+                      "style": "background-color: white; color: #111111;"
+                    }
+                  ],
+                  "text": "MAKE RESERVATION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "main",
+      "style": "display: flex; flex-direction: column; overflow-x: clip; margin-inline: auto; width: 100%;",
+      "children": [
+        {
+          "element": "div",
+          "style": "max-width: 1110px; margin-inline: auto; width: 100%; position: relative; justify-content: right; display: flex; min-height: 220px;",
+          "children": [
+            {
+              "element": "img",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "display: none;"
+                }
+              ],
+              "attributes": {
+                "src": "../static/images/patterns/pattern-curve-bottom-right.svg"
+              },
+              "style": "height: 320px; width: 993px; margin-right: 282px;"
+            },
+            {
+              "element": "div",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "display: none;"
+                }
+              ],
+              "style": "width: 100vw; height: 320px; background-color: #F2F3F4; position: absolute; top: 0; right: 993px;"
+            },
+            {
+              "element": "img",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "display: none;"
+                }
+              ],
+              "attributes": {
+                "src": "../static/images/patterns/pattern-lines.svg"
+              },
+              "style": "position: absolute; right: 460px; top: 178px;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "footer",
+      "style": "background-color: #111111; margin-top: auto;",
+      "children": [
+        {
+          "element": "div",
+          "style": "min-height: 240px; display: flex; align-items: center; justify-content: center;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "min-height: 328px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "max-width: 1110px; width: 100%; display: flex; justify-content: space-between; align-items: start;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "flex-direction: column; align-items: center; text-align: center; min-height: 440px; gap: 42px; justify-content: center;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "padding-inline: 40px; justify-content: space-around; gap: 130px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "../static/images/logo.svg"
+                  },
+                  "style": ""
+                },
+                {
+                  "element": "div",
+                  "style": "max-width: 814px; width: 100%; color: white; display: flex; justify-content: space-between; gap: 32px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "max-width: fit-content;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "flex-direction: column; max-width: 456px;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "section",
+                      "style": "max-width: 244px; width: 100%;",
+                      "children": [
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "MARTHWAITE, SEDBERGH\nCUMBRIA"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "+00 44 123 4567"
+                        }
+                      ]
+                    },
+                    {
+                      "element": "section",
+                      "style": "max-width: 466px; width: 100%;",
+                      "children": [
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "OPEN TIMES"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "MON - FRI: 09:00 AM - 10:00 PM"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "SAT - SUN: 09:00 AM - 11:30 PM"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "script",
+      "attributes": {
+        "src": "../static/scripts/main2.js"
+      },
+      "style": ""
+    }
+  ]
+}

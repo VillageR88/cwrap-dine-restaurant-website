@@ -1,0 +1,119 @@
+[
+  {
+    "element": "div",
+    "name": "div1",
+    "style": "max-width: 570px; width: 570px; height: fit-content; margin: 247px 0 198px 125px;",
+    "children": [
+      {
+        "element": "img",
+        "attributes": {
+          "src": "static/images/patterns/pattern-divide.svg"
+        }
+      },
+      {
+        "element": "section",
+        "attributes": {
+          "style": ""
+        },
+        "children": [
+          {
+            "element": "h2",
+            "style": "color: #242B37; margin-right: 90px;",
+            "text": "Enjoyable place\nfor all the family"
+          },
+          {
+            "element": "p",
+            "style": "color: #242B37;",
+            "text": "Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour of the farm before your meal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "element": "img",
+    "name": "imgDecorBar",
+    "style": "position: absolute; right: -115px; top: 282px; z-index: 1;",
+    "attributes": {
+      "src": "static/images/patterns/pattern-lines.svg"
+    },
+    "text": ""
+  },
+  {
+    "element": "a",
+    "name": "aLinkButton1",
+    "style": "color: white; margin-top: 40px;",
+    "attributes": {
+      "class": "button1",
+      "tabindex": "0"
+    },
+    "text": "BOOK A TABLE"
+  },
+  {
+    "element": "img",
+    "name": "imgLogo",
+    "style": "width: fit-content; height: auto;",
+    "attributes": {
+      "src": "static/images/logo.svg"
+    },
+    "text": ""
+  },
+  {
+    "element": "div",
+    "name": "divDate",
+    "style": "display: flex; justify-content: space-between; align-items: center;",
+    "children": [
+      {
+        "element": "label",
+        "style": ";",
+        "text": "Pick a date"
+      },
+      {
+        "element": "div",
+        "style": "display: flex; gap: 16px;",
+        "children": [
+          {
+            "element": "input",
+            "style": "width: 80px;",
+            "attributes": {
+              "class": "input1",
+              "placeholder": "MM",
+              "type": "number",
+              "min": "1",
+              "max": "12",
+              "id": "month"
+            },
+            "text": ""
+          },
+          {
+            "element": "input",
+            "style": "width: 80px;",
+            "attributes": {
+              "class": "input1",
+              "placeholder": "DD",
+              "id": "day",
+              "type": "number",
+              "min": "1",
+              "max": "31"
+            },
+            "text": ""
+          },
+          {
+            "element": "input",
+            "style": "width: 97px;",
+            "attributes": {
+              "class": "input1",
+              "placeholder": "YYYY",
+              "id": "year",
+              "type": "number",
+              "max": "2100"
+            },
+            "text": ""
+          }
+        ],
+        "text": ""
+      }
+    ],
+    "text": ""
+  }
+]

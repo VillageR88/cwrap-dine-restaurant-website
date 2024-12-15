@@ -1,0 +1,1172 @@
+{
+  "head": {
+    "title": "New Candy Wrapper project",
+    "link": [
+      {
+        "rel": "shortcut icon",
+        "href": "favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap",
+        "type": "text/css"
+      }
+    ],
+    "meta": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "description",
+        "content": "New Candy Wrapper project."
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      }
+    ]
+  },
+  "fonts": [],
+  "classroom": [
+    {
+      "name": "p",
+      "type": "element",
+      "style": "margin: 0; line-height: 30px; font-size: 20px;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "font-size: 16px;"
+        }
+      ]
+    },
+    {
+      "name": "button1",
+      "type": "class",
+      "style": "border: 1px solid white; box-sizing: border-box; margin: 0; width: fit-content; padding: 24px 54px; font-size: 17px; font-weight: 600; line-height: 16px; letter-spacing: 2.5px; cursor: pointer; transition: 150ms;"
+    },
+    {
+      "name": "h2",
+      "type": "element",
+      "style": "font-weight: 700; font-size: 48px; letter-spacing: -0.5px; line-height: 48px;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "font-size: 32px; line-height: 40px; letter-spacing: -0.4px;"
+        }
+      ]
+    },
+    {
+      "name": "h3",
+      "type": "element",
+      "style": "font-weight: bold; font-size: 20px; line-height: 24px; letter-spacing: -0.25px;"
+    },
+    {
+      "name": "carousel-item",
+      "type": "class",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "min-height: 400px;"
+        },
+        {
+          "query": "max-width: 1200px",
+          "style": "min-height: 360px;"
+        }
+      ],
+      "style": "min-width: 100%; min-height:600px; position: relative; z-index: 2; user-select: none; background-size: 100%;"
+    },
+    {
+      "name": "footerText",
+      "type": "class",
+      "style": "font-size: 14px; line-height: 28px; letter-spacing: 2px;"
+    },
+    {
+      "name": "a",
+      "type": "element",
+      "style": "text-decoration: none;"
+    }
+  ],
+  "element": "body",
+  "style": "background-color: white; margin: 0; padding: 0; box-sizing: border-box; min-height: 100dvh; display: flex; flex-direction: column; font-family: League Spartan;",
+  "children": [
+    {
+      "element": "header",
+      "style": "background-color: #111111; min-height: 820px; background-image: url(\"static/images/homepage/hero-bg-desktop@2x.jpg\"); background-size: cover; background-repeat: no-repeat; background-position: right;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "background-image: url(\"static/images/homepage/hero-bg-mobile@2x.jpg\"); background-size: contain; background-position: top;"
+        },
+        {
+          "query": "max-width: 1200px",
+          "style": "background-image: url(\"static/images/homepage/hero-bg-tablet@2x.jpg\"); background-size: contain; background-position: top;"
+        }
+      ],
+      "children": [
+        {
+          "element": "div",
+          "style": "margin: 65px auto 167px auto; display: flex; flex-direction: column; max-width: 1110px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "max-width: 350px; margin: 232px auto 152px auto;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "align-items: center; text-align: center; margin: 374px auto 216px auto;"
+            }
+          ],
+          "children": [
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/logo.svg"
+              },
+              "style": "width: fit-content; height: auto;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "height: 32px;"
+                }
+              ]
+            },
+            {
+              "element": "section",
+              "style": "display: flex; flex-direction: column; gap: 10px; margin-top: 153px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin-top: 38px; align-items: center; gap: 20px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "h1",
+                  "style": "color: white; font-size: 80px; font-weight: 300; line-height: 80px; letter-spacing: -1px; margin: 0; max-width: 507px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "font-size: 32px; line-height: 40px; letter-spacing: 0; max-width: 300px;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "font-size: 48px; line-height: 64px; letter-spacing: -0.6px; max-width: 350px;"
+                    }
+                  ],
+                  "text": "Exquisite dining \nsince 1989"
+                },
+                {
+                  "element": "p",
+                  "style": "color: white; max-width: 440px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "max-width: 550px;"
+                    }
+                  ],
+                  "text": "Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse."
+                }
+              ]
+            },
+            {
+              "element": "a",
+              "attributes": {
+                "class": "button1",
+                "tabindex": "0",
+                "href": "/booking"
+              },
+              "style": "color: white; margin-top: 40px;",
+              "extend": [
+                {
+                  "extension": ":hover",
+                  "style": "background-color:white; color: #111111"
+                },
+                {
+                  "extension": ":focus",
+                  "style": "outline: 1px solid white; outline-offset: 3px;"
+                }
+              ],
+              "text": "BOOK A TABLE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "main",
+      "style": "display: flex; flex-direction: column; overflow-x: clip;",
+      "children": [
+        {
+          "element": "div",
+          "style": "max-width: 1110px; margin-inline: auto; display: flex; margin-top: -70px; justify-content: space-between; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "flex-direction: column; max-width: 573px; align-items: center; margin-top: -96px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "z-index: 1; position: relative; max-width: 540px; box-shadow: 0 75px 100px rgba(56,66,85,0.5); display: flex; width: 100%;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "max-width: 327px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "picture",
+                  "style": "position: relative; height: fit-content; width: 100%; display: flex;",
+                  "children": [
+                    {
+                      "element": "source",
+                      "attributes": {
+                        "srcset": "static/images/homepage/enjoyable-place-mobile@2x.jpg",
+                        "media": "(max-width: 768px)"
+                      },
+                      "style": ""
+                    },
+                    {
+                      "element": "source",
+                      "attributes": {
+                        "srcset": "static/images/homepage/enjoyable-place-tablet@2x.jpg",
+                        "media": "(max-width: 1200px)"
+                      },
+                      "style": ""
+                    },
+                    {
+                      "element": "img",
+                      "attributes": {
+                        "src": "static/images/homepage/enjoyable-place-desktop@2x.jpg"
+                      },
+                      "style": "width: 100%; height: fit-content;"
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "style": "position: relative;",
+                  "children": [
+                    {
+                      "element": "img",
+                      "attributes": {
+                        "src": "static/images/patterns/pattern-curve-top-right.svg"
+                      },
+                      "style": "position: absolute; right: -190px; bottom: 80px; z-index: -1",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 768px",
+                          "style": "display: none;"
+                        },
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "right: 292px; bottom: -156px;"
+                        }
+                      ]
+                    },
+                    {
+                      "element": "div",
+                      "style": "background-color: #F2F3F4; height: 320px; position: absolute; right: 700px; width: 100vw; bottom: 80px; z-index: -1;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "display: none;"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "div",
+              "style": "max-width: 445px; height: fit-content; margin: 247px 0 198px auto; display: flex; flex-direction: column;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "max-width: 327px; margin: 48px auto 101px auto;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin: 56px auto 118px auto; align-items: center; text-align: center;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "static/images/patterns/pattern-divide.svg"
+                  },
+                  "style": "width: fit-content; height: auto;"
+                },
+                {
+                  "element": "section",
+                  "style": "display: flex; flex-direction: column;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "align-items: center;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "h2",
+                      "style": "color: #242B37; margin-right: 90px;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 768px",
+                          "style": "max-width: 240px;"
+                        },
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "margin-right: 0; max-width: 350px;"
+                        }
+                      ],
+                      "text": "Enjoyable place\nfor all the family"
+                    },
+                    {
+                      "element": "p",
+                      "style": "color: #242B37;",
+                      "text": "Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour of the farm before your meal."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "max-width: 1110px; margin-inline: auto; display: flex; width: 100%; justify-content: space-between; margin-top: 120px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "max-width: 327px;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "flex-direction: column-reverse; max-width: 573px; margin-top: 0;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "max-width: 420px; height: fit-content; margin: 247px auto 198px 0;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "margin: 48px auto 101px auto; max-width: 327px;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin: 56px auto 104px auto; align-items: center; text-align: center;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "static/images/patterns/pattern-divide.svg"
+                  },
+                  "style": ""
+                },
+                {
+                  "element": "section",
+                  "style": "display: flex; flex-direction: column;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "text-align: center; align-items: center;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "h2",
+                      "style": "color: #242B37; margin-right: 90px;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "margin-right: 0;"
+                        }
+                      ],
+                      "text": "The most locally sourced food"
+                    },
+                    {
+                      "element": "p",
+                      "style": "color: #242B37;",
+                      "text": "All our ingredients come directly from our farm or local fishery. So you can be sure that you’re eating the freshest, most sustainable food."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "div",
+              "style": "max-width: 540px; z-index: 1; position: relative;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "max-width: 327px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "picture",
+                  "style": "z-index: 1; position: relative; height: 100%; width: 100%;",
+                  "children": [
+                    {
+                      "element": "source",
+                      "attributes": {
+                        "srcset": "static/images/homepage/locally-sourced-mobile@2x.jpg",
+                        "media": "(max-width: 768px)"
+                      },
+                      "style": ""
+                    },
+                    {
+                      "element": "source",
+                      "attributes": {
+                        "srcset": "static/images/homepage/locally-sourced-tablet@2x.jpg",
+                        "media": "(max-width: 1200px)"
+                      },
+                      "style": ""
+                    },
+                    {
+                      "element": "img",
+                      "attributes": {
+                        "src": "static/images/homepage/locally-sourced-desktop@2x.jpg"
+                      },
+                      "style": "width: 100%; height: 100%;"
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "style": "position: relative;",
+                  "children": [
+                    {
+                      "element": "img",
+                      "attributes": {
+                        "src": "static/images/patterns/pattern-curve-top-left.svg"
+                      },
+                      "style": "position: absolute; right: -170px; bottom: 80px;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 768px",
+                          "style": "display: none;"
+                        },
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "bottom: -433px; right: 0; left: 287px;"
+                        }
+                      ]
+                    },
+                    {
+                      "element": "div",
+                      "style": "background-color: #F2F3F4; height: 320px; position: absolute; left: 0; width: 100vw; bottom: 80px;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "display: none;"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "static/images/patterns/pattern-lines.svg"
+                  },
+                  "style": "position: absolute; right: -115px; top: 282px; z-index: 1;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "display: none;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "top: 228px;"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "background-color: #111111; margin-top: -80px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "margin-top: 0;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "margin-inline: auto; display: flex; width: 100%; justify-content: center; max-width: 1110px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "flex-direction: column; align-items: center;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "div",
+                  "style": "height: fit-content; margin: 200px auto auto 0; max-width: 445px; display: flex; flex-direction: column;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "max-width: 327px;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "margin: 96px 0 0 0; align-items: center;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "img",
+                      "attributes": {
+                        "src": "static/images/patterns/pattern-divide.svg"
+                      },
+                      "style": "width: fit-content; height: auto;"
+                    },
+                    {
+                      "element": "section",
+                      "style": "",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "align-items: center; text-align: center;"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "element": "h2",
+                          "style": "color: white;",
+                          "text": "A few highlights from our menu"
+                        },
+                        {
+                          "element": "p",
+                          "style": "color: white;",
+                          "text": "We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. Our menu is revamped every season."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "ul",
+                  "style": "width: 100%; max-width: 540px; margin: 255px 0 120px 0; padding: 0; list-style: none; gap: 24px; display: flex; flex-direction: column;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "max-width: 327px;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "margin: 54px 0 96px 0;"
+                    }
+                  ],
+                  "children": [],
+                  "blueprint": {
+                    "element": "li",
+                    "count": "3",
+                    "children": [
+                      {
+                        "element": "div",
+                        "children": [
+                          {
+                            "element": "picture",
+                            "style": "max-width: 128px",
+                            "children": [
+                              {
+                                "element": "source",
+                                "attributes": {
+                                  "srcset": "static/images/homepage/cwrapArray[salmon-mobile,beef-mobile,chocolate-mobile]@2x.jpg",
+                                  "media": "(max-width: 768px)"
+                                },
+                                "style": ""
+                              },
+                              {
+                                "element": "img",
+                                "attributes": {
+                                  "src": "static/images/homepage/cwrapArray[salmon-desktop-tablet,beef-desktop-tablet,chocolate-desktop-tablet]@2x.jpg"
+                                },
+                                "style": "width: 100%",
+                                "mediaQueries": [
+                                  {
+                                    "query": "max-width: 768px",
+                                    "style": "max-width: 327px"
+                                  }
+                                ]
+                              }
+                            ],
+                            "mediaQueries": [
+                              {
+                                "query": "max-width: 768px",
+                                "style": "max-width: 100%"
+                              }
+                            ]
+                          },
+                          {
+                            "element": "div",
+                            "style": "height: 1px;width: 32px;background-color: #9E7F66;margin-top: 18px",
+                            "mediaQueries": [
+                              {
+                                "query": "max-width: 768px",
+                                "style": "display: none"
+                              }
+                            ]
+                          },
+                          {
+                            "element": "section",
+                            "children": [
+                              {
+                                "element": "h3",
+                                "text": "cwrapArray[Seared Salmon Fillet,Rosemary Filet Mignon,Summer Fruit Chocolate Mousse]",
+                                "style": "color: white;margin: 0"
+                              },
+                              {
+                                "element": "p",
+                                "text": "cwrapArray[Our locally sourced salmon served with a refreshing buckwheat summer salad.,Our prime beef served to your taste with a delicious choice of seasonal sides.,Creamy mousse combined with summer fruits and dark chocolate shavings.]",
+                                "style": "color: white;font-size: 16px;line-height: 26px;letter-spacing: 0"
+                              }
+                            ],
+                            "style": "display: flex;flex-direction: column;gap: 8px;margin-left: 30px",
+                            "mediaQueries": [
+                              {
+                                "query": "max-width: 768px",
+                                "style": "margin-left: 0;align-items: center;text-align: center"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "display: flex",
+                        "mediaQueries": [
+                          {
+                            "query": "max-width: 768px",
+                            "style": "flex-direction: column;gap: 36px"
+                          }
+                        ]
+                      },
+                      {
+                        "element": "div",
+                        "style": "border-bottom: 1px solid rgba(255,255,255,0.15)",
+                        "text": "cwrapArray[,,cwrapOmit]"
+                      }
+                    ],
+                    "style": "display: flex;flex-direction: column;gap: 24px"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "max-width: 1110px; min-height: 600px; margin: 160px auto; width: 100%; display: flex; gap: 125px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "max-width: 326px; gap: 49px;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "flex-direction: column; align-items: center; gap: 57px; margin: 120px auto;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "max-width: 540px; position: relative; max-height: 600px; width: 100%;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "max-height: 400px; max-width: 100%"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "max-height: 360px; max-width: 573px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "div",
+                  "attributes": {
+                    "class": "carousel"
+                  },
+                  "style": "width: 100%; height:100%; overflow: hidden; box-shadow: 0 75px 100px rgba(56,66,85,0.5);",
+                  "children": [
+                    {
+                      "element": "div",
+                      "attributes": {
+                        "class": "carousel-inner"
+                      },
+                      "style": "width:100%; height:100%; cursor: grab; display: flex;transition: transform 0.3s ease;",
+                      "children": [
+                        {
+                          "element": "div",
+                          "attributes": {
+                            "class": "carousel-item"
+                          },
+                          "style": "background-image: url(\"static/images/homepage/family-gathering-desktop@2x.jpg\"); background-repeat: no-repeat; display: flex;",
+                          "mediaQueries": [
+                            {
+                              "query": "max-width: 768px",
+                              "style": "background-image: url(\"static/images/homepage/family-gathering-mobile@2x.jpg\");"
+                            },
+                            {
+                              "query": "max-width: 1200px",
+                              "style": "background-image: url(\"static/images/homepage/family-gathering-tablet@2x.jpg\");"
+                            }
+                          ]
+                        },
+                        {
+                          "element": "div",
+                          "attributes": {
+                            "class": "carousel-item"
+                          },
+                          "style": "background-image: url(\"static/images/homepage/special-events-desktop@2x.jpg\");",
+                          "mediaQueries": [
+                            {
+                              "query": "max-width: 768px",
+                              "style": "background-image: url(\"static/images/homepage/special-events-mobile@2x.jpg\");"
+                            },
+                            {
+                              "query": "max-width: 1200px",
+                              "style": "background-image: url(\"static/images/homepage/special-events-tablet@2x.jpg\");"
+                            }
+                          ]
+                        },
+                        {
+                          "element": "div",
+                          "attributes": {
+                            "class": "carousel-item"
+                          },
+                          "style": "background-image: url(\"static/images/homepage/social-events-desktop@2x.jpg\");",
+                          "mediaQueries": [
+                            {
+                              "query": "max-width: 768px",
+                              "style": "background-image: url(\"static/images/homepage/social-events-mobile@2x.jpg\");"
+                            },
+                            {
+                              "query": "max-width: 1200px",
+                              "style": "background-image: url(\"static/images/homepage/social-events-tablet@2x.jpg\");"
+                            }
+                          ]
+                        },
+                        {
+                          "element": "div",
+                          "attributes": {
+                            "class": "carousel-item"
+                          },
+                          "style": ""
+                        },
+                        {
+                          "element": "div",
+                          "attributes": {
+                            "class": "carousel-item"
+                          },
+                          "style": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "static/images/patterns/pattern-curve-top-right.svg"
+                  },
+                  "style": "position: absolute; right: 160px; top: -160px; z-index: -1;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "display: none;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "top: -120px;"
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "style": "position: absolute; width: 100vw; background-color: #F2F3F4; height: 320px; top: -160px; right: 740px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "display: none;"
+                    }
+                  ]
+                },
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "static/images/patterns/pattern-lines.svg"
+                  },
+                  "style": "position: absolute; left: -40px; top: -38px; z-index: 2; pointer-events: none;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "display: none;"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "div",
+              "style": "max-width: 445px; padding-block: 70px; display: flex; flex-direction: column; justify-content: space-between;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "flex-direction: column-reverse; max-width: 689px; padding-block: 0; align-items: center;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "div",
+                  "style": "display: flex; flex-direction: column; min-height: 281px; justify-content: space-between;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "margin-top: 27px;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "margin-top: 60px; align-items: center; text-align: center; max-width: 457px;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "section",
+                      "style": "display: flex; flex-direction: column; gap: 19px;",
+                      "children": [
+                        {
+                          "element": "h2",
+                          "attributes": {
+                            "id": "carouselTitle"
+                          },
+                          "style": "margin: 0;",
+                          "text": "Family Gathering"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "id": "carouselDescription"
+                          },
+                          "style": "margin: 0;",
+                          "text": "We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all."
+                        }
+                      ]
+                    },
+                    {
+                      "element": "a",
+                      "attributes": {
+                        "class": "button1",
+                        "tabindex": "0",
+                        "href": "/booking"
+                      },
+                      "style": "background-color: #111111; color: white; border: 1px solid #111111;",
+                      "extend": [
+                        {
+                          "extension": ":hover",
+                          "style": "background-color:white; color: #111111;"
+                        },
+                        {
+                          "extension": ":focus",
+                          "style": "outline: 1px solid black; outline-offset: 3px;"
+                        }
+                      ],
+                      "text": "BOOK A TABLE"
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "style": "position: relative;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "width: fit-content;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "ul",
+                      "style": "margin: 0; padding: 0; list-style: none; gap: 12px; display: flex; flex-direction: column;",
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 768px",
+                          "style": "flex-direction: column; align-items: center; gap: 16px;"
+                        },
+                        {
+                          "query": "max-width: 1200px",
+                          "style": "flex-direction: row; gap: 45px;"
+                        }
+                      ],
+                      "children": [],
+                      "blueprint": {
+                        "element": "li",
+                        "extend": [
+                          {
+                            "extension": ":has(input:nth-of-type(1):checked) > div",
+                            "style": "opacity:100"
+                          }
+                        ],
+                        "count": "3",
+                        "children": [
+                          {
+                            "element": "label",
+                            "text": "cwrapArray[FAMILY GATHERING,SPECIAL EVENTS,SOCIAL EVENTS]",
+                            "style": "margin: 0;padding: 0;background-color: transparent;border: none;cursor: pointer;font-family: League Spartan;font-size: 17px;font-weight: 600;letter-spacing: 2.5px;line-height: 28px;color: rgba(76,76,76,50%);transition: 150ms",
+                            "children": [
+                              {
+                                "element": "input",
+                                "attributes": {
+                                  "type": "radio",
+                                  "name": "dineEvent",
+                                  "id": "dineEventcwrapArray[Family,Special,Social]",
+                                  "checked": "cwrapArray[,cwrapOmit,cwrapOmit]",
+                                  "tabindex": "0"
+                                },
+                                "style": "opacity: 0;width: 0;height: 0;position: absolute"
+                              }
+                            ],
+                            "extend": [
+                              {
+                                "extension": ":hover",
+                                "style": "color: #4C4C4C;"
+                              },
+                              {
+                                "extension": ":has(input:nth-of-type(1):focus-visible)",
+                                "style": "text-decoration: underline black"
+                              },
+                              {
+                                "extension": ":has(input:nth-of-type(1):checked)",
+                                "style": "color: #4C4C4C;"
+                              }
+                            ],
+                            "attributes": {
+                              "for": "dineEventcwrapArray[Family,Special,Social]"
+                            }
+                          },
+                          {
+                            "element": "div",
+                            "style": "height: 1px;width: 95px;border-bottom: 1px solid #9E7F66;position: absolute; top:10px; left: calc(-95px - 32px); opacity: 0; transition: 150ms;",
+                            "mediaQueries": [
+                              {
+                                "query": "max-width: 768px",
+                                "style": "position: relative; top: 0;"
+                              },
+                              {
+                                "query": "max-width: 1200px",
+                                "style": "width: 48px;top: 30px;left: cwrapArray[70px,55px,50px]"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "position: relative",
+                        "mediaQueries": [
+                          {
+                            "query": "max-width: 768px",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "footer",
+      "style": "background-color: #111111; margin-top: auto;",
+      "children": [
+        {
+          "element": "div",
+          "style": "background-image: url(\"static/images/homepage/ready-bg-desktop@2x.jpg\"); min-height: 240px; background-repeat: no-repeat; background-size: cover; display: flex; align-items: center; justify-content: center;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "min-height: 328px; background-image: url(\"static/images/homepage/ready-bg-mobile@2x.jpg\"); "
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "min-height: 272px; background-image: url(\"static/images/homepage/ready-bg-tablet@2x.jpg\"); "
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "max-width: 1110px; width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 24px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "max-width: 347px; align-items: center; text-align: center;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "flex-direction: column;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "h2",
+                  "style": "color: white; margin: 0;",
+                  "text": "Ready to make a reservation?"
+                },
+                {
+                  "element": "a",
+                  "attributes": {
+                    "class": "button1",
+                    "tabindex": "0",
+                    "href": "/booking"
+                  },
+                  "style": "color: white;",
+                  "extend": [
+                    {
+                      "extension": ":hover",
+                      "style": "background-color: white; color: #111111;"
+                    },
+                    {
+                      "extension": ":focus",
+                      "style": "outline: 1px solid white; outline-offset: 3px;"
+                    }
+                  ],
+                  "text": "BOOK A TABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "min-height: 240px; display: flex; align-items: center; justify-content: center;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "min-height: 328px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "div",
+              "style": "max-width: 1110px; width: 100%; display: flex; justify-content: space-between; align-items: start;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "flex-direction: column; align-items: center; text-align: center; min-height: 440px; gap: 42px; justify-content: center;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "padding-inline: 40px; justify-content: space-around; gap: 130px;"
+                }
+              ],
+              "children": [
+                {
+                  "element": "img",
+                  "attributes": {
+                    "src": "static/images/logo.svg"
+                  },
+                  "style": ""
+                },
+                {
+                  "element": "div",
+                  "style": "max-width: 814px; width: 100%; color: white; display: flex; justify-content: space-between; gap: 32px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "max-width: fit-content;"
+                    },
+                    {
+                      "query": "max-width: 1200px",
+                      "style": "flex-direction: column; max-width: 456px;"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "element": "section",
+                      "style": "max-width: 244px; width: 100%;",
+                      "children": [
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "MARTHWAITE, SEDBERGH\nCUMBRIA"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "+00 44 123 4567"
+                        }
+                      ]
+                    },
+                    {
+                      "element": "section",
+                      "style": "max-width: 466px; width: 100%;",
+                      "children": [
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "OPEN TIMES"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "MON - FRI: 09:00 AM - 10:00 PM"
+                        },
+                        {
+                          "element": "p",
+                          "attributes": {
+                            "class": "footerText"
+                          },
+                          "style": "",
+                          "text": "SAT - SUN: 09:00 AM - 11:30 PM"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "script",
+      "attributes": {
+        "src": "static/scripts/main.js"
+      },
+      "style": ""
+    }
+  ]
+}
