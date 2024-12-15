@@ -125,7 +125,8 @@
             {
               "element": "img",
               "attributes": {
-                "src": "static/images/logo.svg"
+                "src": "static/images/logo.svg",
+                "alt": "logo"
               },
               "style": "width: fit-content; height: auto;",
               "mediaQueries": [
@@ -178,7 +179,7 @@
               "attributes": {
                 "class": "button1",
                 "tabindex": "0",
-                "href": "/booking"
+                "href": "booking"
               },
               "style": "color: white; margin-top: 40px;",
               "extend": [
@@ -244,7 +245,8 @@
                     {
                       "element": "img",
                       "attributes": {
-                        "src": "static/images/homepage/enjoyable-place-desktop@2x.jpg"
+                        "src": "static/images/homepage/enjoyable-place-desktop@2x.jpg",
+                        "alt": "beautiful picture"
                       },
                       "style": "width: 100%; height: fit-content;"
                     }
@@ -257,7 +259,8 @@
                     {
                       "element": "img",
                       "attributes": {
-                        "src": "static/images/patterns/pattern-curve-top-right.svg"
+                        "src": "static/images/patterns/pattern-curve-top-right.svg",
+                        "alt": "beautiful picture"
                       },
                       "style": "position: absolute; right: -190px; bottom: 80px; z-index: -1",
                       "mediaQueries": [
@@ -302,7 +305,8 @@
                 {
                   "element": "img",
                   "attributes": {
-                    "src": "static/images/patterns/pattern-divide.svg"
+                    "src": "static/images/patterns/pattern-divide.svg",
+                    "alt": "beautiful picture"
                   },
                   "style": "width: fit-content; height: auto;"
                 },
@@ -373,7 +377,8 @@
                 {
                   "element": "img",
                   "attributes": {
-                    "src": "static/images/patterns/pattern-divide.svg"
+                    "src": "static/images/patterns/pattern-divide.svg",
+                    "alt": "beautiful picture"
                   },
                   "style": ""
                 },
@@ -440,7 +445,8 @@
                     {
                       "element": "img",
                       "attributes": {
-                        "src": "static/images/homepage/locally-sourced-desktop@2x.jpg"
+                        "src": "static/images/homepage/locally-sourced-desktop@2x.jpg",
+                        "alt": "beautiful picture"
                       },
                       "style": "width: 100%; height: 100%;"
                     }
@@ -453,7 +459,8 @@
                     {
                       "element": "img",
                       "attributes": {
-                        "src": "static/images/patterns/pattern-curve-top-left.svg"
+                        "src": "static/images/patterns/pattern-curve-top-left.svg",
+                        "alt": "pattern"
                       },
                       "style": "position: absolute; right: -170px; bottom: 80px;",
                       "mediaQueries": [
@@ -482,7 +489,8 @@
                 {
                   "element": "img",
                   "attributes": {
-                    "src": "static/images/patterns/pattern-lines.svg"
+                    "src": "static/images/patterns/pattern-lines.svg",
+                    "alt": "pattern"
                   },
                   "style": "position: absolute; right: -115px; top: 282px; z-index: 1;",
                   "mediaQueries": [
@@ -537,7 +545,8 @@
                     {
                       "element": "img",
                       "attributes": {
-                        "src": "static/images/patterns/pattern-divide.svg"
+                        "src": "static/images/patterns/pattern-divide.svg",
+                        "alt": "pattern"
                       },
                       "style": "width: fit-content; height: auto;"
                     },
@@ -787,7 +796,8 @@
                 {
                   "element": "img",
                   "attributes": {
-                    "src": "static/images/patterns/pattern-curve-top-right.svg"
+                    "src": "static/images/patterns/pattern-curve-top-right.svg",
+                    "alt": "pattern"
                   },
                   "style": "position: absolute; right: 160px; top: -160px; z-index: -1;",
                   "mediaQueries": [
@@ -814,7 +824,8 @@
                 {
                   "element": "img",
                   "attributes": {
-                    "src": "static/images/patterns/pattern-lines.svg"
+                    "src": "static/images/patterns/pattern-lines.svg",
+                    "alt": "pattern"
                   },
                   "style": "position: absolute; left: -40px; top: -38px; z-index: 2; pointer-events: none;",
                   "mediaQueries": [
@@ -877,7 +888,7 @@
                       "attributes": {
                         "class": "button1",
                         "tabindex": "0",
-                        "href": "/booking"
+                        "href": "booking"
                       },
                       "style": "background-color: #111111; color: white; border: 1px solid #111111;",
                       "extend": [
@@ -1037,7 +1048,7 @@
                   "attributes": {
                     "class": "button1",
                     "tabindex": "0",
-                    "href": "/booking"
+                    "href": "booking"
                   },
                   "style": "color: white;",
                   "extend": [
@@ -1083,7 +1094,8 @@
                 {
                   "element": "img",
                   "attributes": {
-                    "src": "static/images/logo.svg"
+                    "src": "static/images/logo.svg",
+                    "alt": "logo"
                   },
                   "style": ""
                 },
