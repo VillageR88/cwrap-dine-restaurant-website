@@ -7,7 +7,7 @@
     "build": "node build.js"
   },
   "devDependencies": {
-    "cwrap-framework": "0.1.0-beta.202412131511",
+    "cwrap-framework": "0.1.0-beta.202412170032",
     "body-parser": "^1.20.2",
     "express": "^4.17.1",
     "connect-livereload": "^0.6.1",
